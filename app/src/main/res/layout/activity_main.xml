@@ -26,7 +26,7 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="@string/kirjoita"
-        android:inputType="textUri"
+        android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/web"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
@@ -36,12 +36,12 @@
 
     <WebView
         android:id="@+id/web"
-        android:layout_width="300dp"
-        android:layout_height="629dp"
+        android:layout_width="285dp"
+        android:layout_height="523dp"
         android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintHorizontal_bias="0.873"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0">
@@ -53,6 +53,7 @@
         android:layout_width="59dp"
         android:layout_height="54dp"
         android:backgroundTint="@color/teal_700"
+        android:contentDescription="@string/lataa"
         app:layout_constraintBottom_toTopOf="@+id/web"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.555"
@@ -60,5 +61,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.148"
         app:srcCompat="@android:drawable/stat_notify_sync" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="41dp"
+        android:layout_height="125dp"
+        android:text="@string/shoutout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editURL"
+        app:layout_constraintVertical_bias="0.07" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="40dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/index"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

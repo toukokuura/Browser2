@@ -2,4 +2,7 @@
     <string name="app_name">Browser</string>
     <string name="siirry">Siirry</string>
     <string name="kirjoita">Kirjoita osoite...</string>
+    <string name="lataa">Lataa sivu uudelleen</string>
+    <string name="shoutout">SHOUT</string>
+    <string name= "index">BACK</string>
 </resources>
